@@ -1,3 +1,3 @@
 #!/bin/bash
 docker build -t virkkala/tfvc .
-docker run -it --rm -v "$(pwd):/app" virkkala/tfvc testi.js
+docker run --rm virkkala/tfvc tf workspaces
