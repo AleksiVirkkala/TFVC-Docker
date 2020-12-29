@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/java/jre:8-zulu-alpine
+FROM mcr.microsoft.com/java/jre:8-zulu-ubuntu
 WORKDIR /code
 
 # setting up TEE-CLC tool
