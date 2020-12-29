@@ -8,4 +8,4 @@ then
   tf workspaces -server:"$SERVER" -login:"PersonalAccessToken,$PAT"
 fi
 
-exec "$@"
+exec ${@:-/bin/sh}
